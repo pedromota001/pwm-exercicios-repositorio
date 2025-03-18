@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    background-color: #8AADEB;
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.div-geral{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.section-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-principal h1{
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5em;
+    color: #333; 
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-principal img{
+    width: 450px;
+    margin-bottom: 30px;
+}
+
+.div-botoes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-botoes a{
+    padding: 10px 20px;
+    margin: 5px 50px;
+    background-color: #2373EB;
+    color: #000;
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.div-botoes a:hover{
+    color: #D11D8F;
+}
