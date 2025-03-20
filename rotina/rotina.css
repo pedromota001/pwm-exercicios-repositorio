@@ -83,6 +83,10 @@ body{
     border-radius: 5px;
 }
 
+.div-botoes a:hover{
+    color: #D11D8F;
+}
+
 .div-audio{
     width: 300px;
     margin: 20px auto; 

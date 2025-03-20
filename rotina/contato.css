@@ -103,6 +103,10 @@ body {
     border-radius: 5px;
 }
 
+.section-informacoes-div-botoes a:hover{
+    color: #D11D8F;
+}
+
 .section-informacoes-.section-informacoes-div-botoes a:hover {
     color: #0056b3;
 }
