@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+
+
+body{
+    background-color: #8AADEB;
+}
+
+.div-geral{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.fundo-div{
+    background-color: #D0D7DC;
+    width: 687px;
+    height: 490px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin: 30px;
+}
+
+.fundo-div img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.fundo-div video{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.fundo-div h1{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    margin: 2px;
+}
+
+.fundo-div h2{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.fundo-div p{
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: 20px;
+}
+
+.fundo-div strong{
+    color: #392CEA;
+}
+
+.div-botoes{
+    display: flex;
+    justify-content: center;
+}
+
+.div-botoes a{
+    padding: 10px 20px;
+    margin: 5px 50px;
+    background-color: #2373EB;
+    color: #000;
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.div-audio{
+    width: 300px;
+    margin: 20px auto; 
+    background-color: #fff; 
+    display: block;
+}
+
